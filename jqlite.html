@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./dist/main.js" type="text/javascript"></script>
+    <title>JQ Lite</title>
+</head>
+<style>
+    h1 {
+        margin: 50px;
+        text-align: center;
+    }
+    .outside {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    img {
+        /* margin: 25px; */
+        padding: 25px;
+    }
+    .images {
+        justify-self: center;
+        align-self: center;
+        border: 4px solid red;
+    }
+
+    .test{
+        background: red;
+    }
+
+    .addClass {
+        text-decoration: underline;
+        border: 4px solid blue;
+    }
+    
+    #corgi-header{
+        color:green;
+    }
+</style>
+<audio id="sound1" src="http://soundbible.com/grab.php?id=72&type=mp3" preload="auto"></audio>
+
+<body>
+    <h1 id="corgi-header" class="test">I Love Corgis!</h1> 
+    <div class="outside testclass"><div class="images"><!-- <div class="test">text</div> -->
+    <img onclick="document.getElementById('sound1').play();" src="https://static-29.sinclairstoryline.com/resources/media/717fe52a-6441-45f9-bc82-a30d4d7611a7-Corgi43.jpg">
+    <img onclick="document.getElementById('sound1').play();" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1-QdTFnCie5vSTKpXm-aFPoJhhKUM_AEiVznaffh3JlspeSBUuA">
+    <img onclick="document.getElementById('sound1').play();" src="https://www.rover.com/blog/wp-content/uploads/2017/06/corgi-flowers-960x540.jpg">
+    <img onclick="document.getElementById('sound1').play();" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOS903Hv7TEdHXJp6m7hpDHz57sJUiVrePmIYH38sjpqrXCrJPrQ">
+    <img onclick="document.getElementById('sound1').play();" src="https://i.barkpost.com/wp-content/uploads/2015/01/corgi2.jpg?q=70&fit=crop&crop=entropy&w=808&h=500">
+    <img onclick="document.getElementById('sound1').play();" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5qdUTWtnb09cCQ0wDs_KInCtqxQdD-sD8EJSXXzc6ymX0j7j">
+    <img onclick="document.getElementById('sound1').play();" src="https://i.ytimg.com/vi/JlbbZ6MhIIE/maxresdefault.jpg">
+    </div>
+    </div>
+
+</body>
+</html>
